@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">QuarAnti-virus</string>
+    <string name="home">Home</string>
+    <string name="test_your_self">Test your self!!</string>
+    <string name="support">Support</string>
+    <string name="about">About</string>
+    <string name="need_help">Need Help?</string>
+    <string name="details">Details</string>
+    <string name="body_temperature">Body Temperature:</string>
+    <string name="blood_pressure">Blood Pressure:</string>
+    <string name="heart_bpm">Heart BPM:</string>
+    <string name="oxygen_level">Blood Oxygen Level:</string>
+    <string name="faq">FAQ</string>
+    <string name="tip_the_day">Tip of the day:</string>
+    <string name="next_tip">Next Tip!</string>
+    <string name="about_us">CEEE++ stands for Cybele , Elie , Elie and Elias ,
+        4 Electrical Engineering students whose aim is to help people overcome the situation due to the COVID-19 pandemic.
+        \nCountries around the globe are facing challenges in assuring that people on mandatory confinement do not break
+        the rules of security given by the governments. Therefore, in order to maintain general safety, we,
+        CEEE++ team, put all our focus on creating a device that can help make sure the imposed rules are followed.
+        \nPeople in confinement can wear our wearable bracelets and use this app to keep track of their location and
+        health to ensure their safety. We are aiming to give you a great experience, that will help you overcome
+        the situation as well as stay informed on how to stay safe.
+        \n\nStay at home.
+        \nStay Safe.
+        \nUse QuarANTI-Virus.</string>
+    <string name="need_support">Need Support?</string>
+    <string name="call_usa">call USA ambulance</string>
+    <string name="call_egypt">Call Egypt Ambulance</string>
+    <string name="call_lebanese">Call Lebanese Ambulance</string>
+    <string name="call_saudi_arabia">Call Saudi-Arabia Ambulance</string>
+    <string name="call_syria">Call Syria Ambulance</string>
+    <string name="bad_condition">You are in a seriously bad condition!</string>
+    <string name="average">You don\'t look so good :(</string>
+    <string name="optimal">You are in optimal condition</string>
+    <string name="reconciliation1">\nDon\'t freak out just yet maybe the reading are subject to external factors and malfunctions you should always check again with usual procedures.</string>
+    <string-array name="tips">
+        <item>Stay Hydrated: Drink a lot of fluids.</item>
+        <item>Avoid any contact with your family. Wear a cloth face cover when they are around. .</item>
+        <item>Do not share household items with others. (dishes, cups…).</item>
+        <item>Sleep in a separate bedroom and use a private bathroom (if possible) .</item>
+        <item>Wash your hands with soap frequently and avoid touching your face.</item>
+        <item>Seek medical attention if symptoms appear/worsen.</item>
+        <item>Cover your nose with your elbow when sneezing.</item>
+        <item>Maintain a sense of hope and positive thinking.</item>
+        <item>Stay connected with your closed ones via “Video Calls” .</item>
+        <item>Make full use of your day by doing everything you couldn’t normally do.</item>
+        <item>Try to maintain a healthy diet.</item>
+        <item>Clear all high-touch surfaces every day.</item>
+        <item>Practice mindfulness and calming breathing techniques.</item>
+        <item>Stop smoking and drinking alcohol, these can affect your immunity.</item>
+        <item>Think of the love ones you’re protecting by staying at home.</item>
+        <item>Limit your “Covid 19” news intake.</item>
+        <item>Start reading the books on your shelf.</item>
+        <item>Stream a concert, opera or TV show.</item>
+        <item>Take a digital museum tour .</item>
+        <item>Host a Netflix viewing party with your friends.</item>
+        <item>Try doing some sports: it’s good for the heart.</item>
+        <item>Create art.</item>
+        <item>Learn a new language on Duolingo.</item>
+        <item>You can try your hand at writing to De-Stress.</item>
+        <item>Clean up your embarrassing pictures from Facebook.</item>
+        <item>Work on your dancing skills : it releases stress hormones.</item>
+        <item>Try out some new virtual glasses frames online on glassesusa.com.</item>
+        <item>Get out of your bubble by starting your own blog.</item>
+        <item>Don’t worry about your neighbors, dust off that old instrument and practice. .</item>
+        <item>Reconnect with old friends.</item>
+        <item>Watch all the really long movies you’ve avoided until now. .</item>
+        <item>Treat yourself to a skin care routine, from long baths to face masks .</item>
+        <item>Clean up your closet, you could use the free space.</item>
+        <item>Take time to reflect about your goals for the upcoming year.</item>
+        <item>Make a list of things for which you are grateful .</item>
+        <item>How many words per minute can you type? It’s time to find out.</item>
+        <item>Sleep. Get lots of it .</item>
+        <item>Take a (virtual) world tour.</item>
+        <item>Let it all out: talk to a therapist. You can arrange sessions online.</item>
+        <item>Challenge your brain in some brain games .</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/healthdetails"
+    tools:context=".DetailActivity">
+<!--For now the measuring will be provided with the tilting of the device
+but later all the info will come from the wrist-band modules.
+-->
+    <TextView
+        android:id="@+id/text_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/body_temperature"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/value_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20sp"
+        android:text="37.5"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/text_temperature"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="@string/blood_pressure"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/text_temperature"
+        app:layout_constraintTop_toBottomOf="@id/text_temperature" />
+
+    <TextView
+        android:id="@+id/value_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="11"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/value_temperature"
+        app:layout_constraintTop_toBottomOf="@id/text_temperature" />
+
+    <TextView
+        android:id="@+id/text_heartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="@string/heart_bpm"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/text_temperature"
+        app:layout_constraintTop_toBottomOf="@id/text_pressure" />
+
+    <TextView
+        android:id="@+id/value_heartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="80"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/value_temperature"
+        app:layout_constraintTop_toBottomOf="@id/value_pressure" />
+
+    <TextView
+        android:id="@+id/text_oxygen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:text="@string/oxygen_level"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/text_temperature"
+        app:layout_constraintTop_toBottomOf="@id/text_heartRate" />
+
+    <TextView
+        android:id="@+id/value_oxygen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="80%"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/value_temperature"
+        app:layout_constraintTop_toBottomOf="@id/text_heartRate" />
+
+    <TextView
+        android:id="@+id/text_warning"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/text_oxygen"
+
+        app:layout_constraintTop_toBottomOf="@id/text_oxygen" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

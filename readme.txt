@@ -1,0 +1,1 @@
+This repository contains both the source code and the compiled app QuarAnti-Virus (app-debug.apk)
