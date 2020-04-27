@@ -84,7 +84,6 @@ public class Support extends AppCompatActivity {
     {
         startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.who.int/emergencies/diseases/novel-coronavirus-2019")));
     }
-xc
     private boolean checkCallPermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE)
                 != PackageManager.PERMISSION_GRANTED) {
